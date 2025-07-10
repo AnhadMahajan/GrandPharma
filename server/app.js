@@ -26,9 +26,9 @@ app.use('/api/medicines', require('./routes/medicineRoutes'));
 app.use('/api/orders', require('./routes/orderRoutes'));
 app.use('/api/users', require('./routes/userRoutes'));
 
-const OPENROUTER_API_KEY = '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'; // Replace with your actual API key
-const SITE_URL = 'https://grand-pharma-xh8b.vercel.app'; // Replace with your actual site URL
-const SITE_NAME = 'MedChat Assistant'; // Replace with your site name
+const OPENROUTER_API_KEY = ''; 
+const SITE_URL = 'https://grand-pharma-xh8b.vercel.app'; 
+const SITE_NAME = 'MedChat Assistant'; 
 
 let chatHistory = [];
 
