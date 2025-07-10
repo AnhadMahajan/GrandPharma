@@ -6,7 +6,7 @@ dotenv.config();
 
 const connectDB = async ( ) => {
   try {
-    await mongoose.connect('mongodb+srv://goravjindal86:dsMoPnw6HnPi6eo0@grandmaster.chyoh.mongodb.net/', {
+    await mongoose.connect('mongo db key', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
